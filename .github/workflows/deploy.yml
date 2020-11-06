@@ -1,11 +1,4 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-# This workflow will download a prebuilt Ruby version, install dependencies and run tests with Rake
-# For more information see: https://github.com/marketplace/actions/setup-ruby-jruby-and-truffleruby
-
-name: Ruby
+name: Deploy
 
 on:
   push:
@@ -14,10 +7,8 @@ on:
     branches: [ master ]
 
 jobs:
-  test:
-
+  build_deploy:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby
@@ -34,4 +25,4 @@ jobs:
         ftp-server: ${{ secrets.FTP_SERVER }}
         ftp-username: ${{ secrets.FTP_USER }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./_site
+        local-dir: _site
