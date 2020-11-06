@@ -1,0 +1,43 @@
+
+title: Lucas Zientek
+email: lucas@zientek.fr
+description: >-
+  Je m'appelle Lucas Zientek je suis développeur fullstack du frontend à l'ops.
+  Passionné de dev, d'automatisation et de nouvelles technologies je vous partage sur ce blog mes trouvailles.
+baseurl: ""
+url: "http://lucas.zientek.fr"
+twitter_username: lucas42_
+github_username: lzientek
+
+# Build settings
+theme: jekyll-theme-yat
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Gitment comments
+gitment:
+  username: "lzientek"
+  repo: "blog"
+  client_id: "e08b27202d11da29003c"
+  client_secret: "2c8ffa0e011df4c406a38d7bde28d39e5046e0a4"
+  redirect_uri: "http://localhost:4000"   # If you use a custom domain name
