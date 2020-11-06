@@ -2,7 +2,8 @@
 layout: post
 title:  "Premier post / Setup et deploiement de jekyll"
 date:   2020-11-06 11:11:03 +0100
-categories: dev devops jekyll
+categories: dev ops
+tags: [dev, devops, jekyll]
 ---
 Nouvelle journée nouveau projet!
 
