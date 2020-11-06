@@ -87,9 +87,9 @@ Donc on ajoute nos informations de ftp dans les secrets du projet et on ajoute u
     - name: Deploy to the server
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: ${{ secrets.FTP_SERVER }}
-        ftp-username: ${{ secrets.FTP_USER }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        ftp-server: ${{ "{{secrets.FTP_SERVER" }}}}
+        ftp-username: ${{ "{{secrets.FTP_USER" }}}}
+        ftp-password: ${{ "{{secrets.FTP_PASSWORD" }}}}
         local-dir: _site
 ```
 
