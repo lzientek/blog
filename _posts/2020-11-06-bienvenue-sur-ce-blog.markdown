@@ -50,10 +50,10 @@ Comme vous vous doutez les choix techniques ont été fait de manière à mettre
 
 Ça faisait un moment que je voulais tester github actions, utilisant gitlab au travail la c'est l'occasion de tester quelque chose de nouveau.
 
-### Actions préconstruite pour ruby
-A ma grande surprise j'ouvre l'onglet actions de mon projet githubet la truc quand meme super cool il me propose direct un exemple de fichier de configuration pour faire l'installation et le lancement des tests.
+### Actions pré-construite pour ruby
+À ma grande surprise j'ouvre l'onglet actions de mon projet github et là, truc quand meme super cool il me propose direct un exemple de fichier de configuration. Et pas n'importe lequel, un pour faire l'installation et le lancement des tests ruby la techno du projet.
 
-Donc la super cool, j'adapte le fichier de configuration pour builder le blog. Et ça ressemble a ça:
+Je me dit super cool, j'adapte le fichier de configuration pour builder le blog. Et ça ressemble à ça (et ça fonctionne):
 
 ```yaml
 # .github/workflows/deploy.yml
@@ -77,3 +77,28 @@ jobs:
     - name: Build blog
       run: JEKYLL_ENV=production bundle exec jekyll build
 ```
+
+### Maintenant on deploie le blog sur un FTP
+
+Et la deuxième agréable surprise de github actions, une market place pour ajouter des fonctionnalités à actions. Dans notre cas pas besoin de s'occuper de la connexion FTP quelqu'un l'a fait pour nous (SamKirkland avec [ftp deploy](https://github.com/marketplace/actions/ftp-deploy)).
+Donc on ajoute nos informations de ftp dans les secrets du projet et on ajoute un petit peu de code à la suite de notre build.
+
+```yaml
+    - name: Deploy to the server
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      with:
+        ftp-server: ${{ secrets.FTP_SERVER }}
+        ftp-username: ${{ secrets.FTP_USER }}
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: _site
+```
+
+Et paff ~~ça fait des chocapic~~ le blog est en ligne.  
+![Screenshot github actions](/assets/img/github_actions.png)
+
+
+Donc en conclusion vous avez tout pour lancer votre propre blog en deploiement continue sur github. Il vous reste plus qu'a ecrire des articles.
+
+### Pistes d'amélioration 
+* Des petits problèmes de font a fixer sur le blog.
+* La CD met aujourd'hui 5 minutes ça me semble beaucoup pour le peu qui est fait, je pense faire un article dessus prochainement.
