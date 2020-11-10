@@ -102,4 +102,4 @@ Donc en conclusion vous avez tout pour lancer votre propre blog en deploiement c
 
 ### Pistes d'amélioration 
 * Des petits problèmes de font a fixer sur le blog.
-* La CD met aujourd'hui 5 minutes ça me semble beaucoup pour le peu qui est fait, je pense faire un article dessus prochainement.
+* La CD met aujourd'hui 5 minutes ça me semble beaucoup pour le peu qui est fait, je pense faire un [article dessus prochainement](https://lzientek.fr/ops/2020/11/09/improve-actions-speed.html).
