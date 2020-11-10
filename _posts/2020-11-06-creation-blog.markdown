@@ -94,6 +94,8 @@ Donc on ajoute nos informations de ftp dans les secrets du projet et on ajoute u
         local-dir: _site
 ```
 
+> Attention il ne fat pas oublié de créer un fichier .git-ftp-include avec !_site/ dedans.
+
 Et paff ~~ça fait des chocapic~~ le blog est en ligne.  
 ![Screenshot github actions](/assets/img/github_actions.png)
 
@@ -102,4 +104,4 @@ Donc en conclusion vous avez tout pour lancer votre propre blog en deploiement c
 
 ### Pistes d'amélioration 
 * Des petits problèmes de font a fixer sur le blog.
-* La CD met aujourd'hui 5 minutes ça me semble beaucoup pour le peu qui est fait, je pense faire un article dessus prochainement.
+* La CD met aujourd'hui 5 minutes ça me semble beaucoup pour le peu qui est fait, je pense faire un [article dessus prochainement](https://lzientek.fr/ops/2020/11/09/improve-actions-speed.html).
