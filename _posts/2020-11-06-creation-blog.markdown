@@ -2,6 +2,7 @@
 layout: post
 title:  "Premier post / Setup et deploiement de jekyll"
 date:   2020-11-06 11:11:03 +0100
+author: Lucas ZIENTEK
 categories: dev ops
 tags: [dev, devops, jekyll]
 ---

@@ -29,4 +29,11 @@ gitment:
   repo: "blog"
   client_id: "e08b27202d11da29003c"
   client_secret: "2c8ffa0e011df4c406a38d7bde28d39e5046e0a4"
-  redirect_uri: "http://localhost:4000"   # If you use a custom domain name
+  # redirect_uri: "http://localhost:4000"   # If you use a custom domain name
+
+header_pages:
+  - index.markdown
+  #  - archives.html
+  # - categories.html
+  - tags.markdown
+  # - about.markdown

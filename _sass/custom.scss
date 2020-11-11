@@ -1,0 +1,13 @@
+.post {
+    &-author {
+        margin-top: 50px;
+        padding-left: 10px;
+        border-left: solid 3px $brand-color;
+        img {
+            height: 64px;
+            border-radius: 50%;
+            float: left;
+            margin-right: 10px;
+        }
+    }
+}

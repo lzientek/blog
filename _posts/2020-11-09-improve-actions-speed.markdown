@@ -2,6 +2,7 @@
 layout: post
 title:  "Améliorer les performances de github actions"
 date:   2020-11-09 18:15:09 +0100
+author: Lucas ZIENTEK
 categories: ops
 tags: [dev, devops, jekyll, ci]
 ---
@@ -14,27 +15,27 @@ Nous allons voir dans cet article, quels sont les moyens faciles d'accélérer l
 
 ### L'utilisation du cache
 
-Le cache et le meilleur moyen d'améliorer les performances de votre CI/CD sans pour autant modifier fondamentalement le code. Faut-il encore choisir correctement ce qu'il faut mettre en cache. Petite liste non exaustive:
+Le cache est le meilleur moyen d'améliorer les performances de votre CI/CD sans pour autant modifier fondamentalement le code. Faut-il encore choisir correctement ce qu'il faut mettre en cache. Petite liste non exaustive:
 
-* Les dépendences externe téléchargé ou installé (par apt, apk, etc...)
+* Les dépendences externes téléchargées ou installées (par apt, apk, etc...)
 * Les installations de gestionnaire de packages (npm, bundle, nuggets, etc...)
-* Tout fichier provenant de source externe
+* Tous fichiers provenant de source externe
 
 #### Mise en place du cache pour ruby
 
 ![Screenshot github actions](/assets/img/dependencies_slow.png)  
-Comme on peut le voir ci-dessus le plus long c'est la partie installation avec `bundle install`.
+Comme on peut le voir ci-dessus, le plus long est la partie installation avec `bundle install`.
 
-On va donc ajouter du cache sur l'installation des bundle ruby, car c'est long et c'est rarement mis à jour. Dans github actions ça se présente sous cette forme:
+On va donc ajouter du cache sur l'installation des bundle ruby, parce que cela est long et est rarement mis à jour. Dans github actions ça se présente sous cette forme:
 
 
 ```yaml
  - uses: actions/cache@v2
       with:
         path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        key: ${{ "{{runner.os" }}}}-gems-${{ "{{hashFiles('**/Gemfile.lock')" }}}}
         restore-keys: |
-          ${{ runner.os }}-gems-
+          ${{ "{{runner.os" }}}}-gems-
     - name: Install dependencies
       run: |
         bundle config path vendor/bundle
