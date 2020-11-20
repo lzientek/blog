@@ -23,7 +23,7 @@ Vous pouvez aussi me suivre sur les réseaux sociaux où je suis actif:
 <a href="https://twitter.com/lucas42_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-lang="fr" data-show-count="false">Follow @lucas42_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="fr_FR" data-type="horizontal" data-theme="light" data-vanity="lucas-zientek-47201664"><a class="LI-simple-link" href='https://fr.linkedin.com/in/lucas-zientek-47201664?trk=profile-badge'>Lucas Zientek</a></div>
+<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="fr_FR" data-type="horizontal" data-theme="dark" data-vanity="lucas-zientek-47201664"><a class="LI-simple-link" href='https://fr.linkedin.com/in/lucas-zientek-47201664?trk=profile-badge'>Lucas Zientek</a></div>
 
 
 
