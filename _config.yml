@@ -35,5 +35,5 @@ header_pages:
   - index.markdown
   #  - archives.html
   # - categories.html
-  - tags.markdown
-  # - about.markdown
+  # - tags.markdown
+  - about.markdown
