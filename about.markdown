@@ -10,7 +10,9 @@ Au cours de mes expériences j'ai appris énormément sur l'intégration continu
 J'ai donc décidé de faire du conseil et de la formation autour des sujets CI/CD, devops, mais aussi sur NodeJs et typescript.  
 Aujourd'hui principalement en remote, mais suite au déconfinnement aussi en présentiel dans vos sociétés.  
 
-Pour plus d'information sur __les formations et les préstations de conseil__ vous pouvez me contacter sur [contact@devcast](mailto:contact@devcast.tech?subject=Prise de contact formation CI/CD/devops).
+J'ai donc créé ma société de conseil et de formation [__devcast__](https://devcast.tech).
+
+Pour plus d'information sur __les formations et les préstations de conseil__ vous pouvez me contacter sur [contact@devcast.tech](mailto:contact@devcast.tech?subject=Prise de contact formation CI/CD/devops).
 <!-- ou au [07 49 31 11 49](tel:+33749311149). -->
 
 # Autre contact / personnel
