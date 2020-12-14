@@ -4,7 +4,7 @@ title:  "Améliorer les performances de github actions"
 date:   2020-11-09 18:15:09 +0100
 author: Lucas ZIENTEK
 categories: ops
-tags: [dev, devops, jekyll, ci]
+tags: [dev, devops, jekyll, CI]
 ---
 
 Suite à mon premier article sur [le deploiement d'un blog jekyll](https://lzientek.fr/dev/ops/2020/11/06/creation-blog.html) mais le deploiement était un peu long. Donc deuxième article!
