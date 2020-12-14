@@ -29,7 +29,7 @@ Vous pouvez aussi me suivre sur les réseaux sociaux où je suis actif:
 
 # CV
 
-__Je ne suis actuellement pas a la recherche de travail.__
+__Je ne suis actuellement pas à la recherche de travail.__
 
 <a target="_blank" href="/assets/lucas_zientek_resume.pdf">Télécharger</a>
 
