@@ -20,9 +20,6 @@ lang: "fr"  # default lang is en
 yat:
   date_format: "%d/%m/%C"
 
-# Google analytics
-google_analytics: G-CYSQ8K0L6C
-
 # Gitment comments
 gitment:
   username: "lzientek"
