@@ -18,13 +18,13 @@ Pour information, c'est une recette de cookies "moelleux" avec des grosses pépi
 
 | Ingrédients | Quantité |
 |-----|-----|
-| Farine | 220g |
+| Farine | 240g |
 | Cacao (non sucré) | 1 ou 2 cc | 
-| Beurre | 110g  |
+| Beurre | 120g  |
 | Oeuf | 1 |
 | Sel | pincée |
 | Levure chimique | 5g ou 1cc |
-| Cassonade | 150g |
+| Cassonade | 110g |
 | Sucre blanc | 40g |
 | Sucre vanillé | 1 sachet |
 | Chocolat pâtissier <br>_Selon vos préférences pour moi c'est 50% lait, 25% noir, 25% blanc_| 200g |
