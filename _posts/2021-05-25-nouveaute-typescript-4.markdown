@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nouveauté de typescript 4"
+title:  "Nouveautés de typescript 4.0 a 4.1"
 date:   2020-12-20 11:39:03 +0100
 author: Lucas ZIENTEK
 categories: dev
